@@ -1,0 +1,17 @@
+h1{/*Box-level*/
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid darkslategray;
+
+    padding: 10px 10px;
+    
+    margin: auto;
+}
+
+a{/*Inline-level*/
+    border-width: 3px;
+    border-style: dashed;
+    border-color: red;
+}

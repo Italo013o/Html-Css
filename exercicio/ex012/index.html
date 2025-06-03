@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reproduzindo vídeos</title>
+    <style>
+        video{
+            width: 500px;
+            border-radius: 3%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reproduzindo vídeos em HTML5</h1>
+    <p>Estes vídeo está hospedado no meu servidor</p>
+
+    <video poster="midia/vista-toquio.webp" controls autoplay loop>
+        <source src="midia/video-japan.mp4" type="video/mp4">
+        <source src="midia/video-japan4.m4v" type="video/m4v">
+        <source src="midia/video-japanw.webm" type="video/webm">
+        <p>seu navegador não tem compatibilidade para rodar o vídeo</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe 
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/DfloaXUKr2o?si=Bv5uvXpoeZmXTg1p" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+</body>
+</html>

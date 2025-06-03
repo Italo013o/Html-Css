@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+
+@font-face {
+    font-family: "love";
+    src: url("fontes/love\ larry\ ttf.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{  
+    font-family: "Grenze Gotisch", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'love', Times, serif;
+    color: rgb(197, 65, 65);
+}

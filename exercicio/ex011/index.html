@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imgem dinámica</h1>
+    <p>tente abrir esse site em diferentes dispositivos ou 
+    simplismente aumente e diminua o tamanho do seu navegador
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="ex011/imagens/foto-p.png" 
+        type="image/png">
+        <source media="(max-width: 1050px)" srcset="ex011/imagens/foto-m.png"
+        type="image/png">
+
+        <img src="ex011/imagens/foto-g.png" 
+        alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamas aprender como reproduzir áudios em HTML5</p>
+    <audio src="ex011/midia/guanacast-33.mp3" controls autoplay></audio>
+</body>
+</html>
