@@ -2,6 +2,7 @@
 /* TODAS AS DEMAIS MIDÍAS */
 
 /* 
+    Esses dados foram alterados
     Typical Device Breakpoint 
 -------------------------------------
     Pequenas telas: 600px
@@ -22,7 +23,7 @@
     img#tv{display: none;}
     img#pc{display: none;}
 }
-@media screen and (min-width: 769px) and (max-width: 992px){/*Tablet*/
+@media screen and (min-width: 250px) and (max-width: 750px){/*Tablet*/
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -33,7 +34,7 @@
     img#tv{display: none;}
     img#pc{display: none;}
 }
-@media screen and (min-width: 993px) and (max-width: 1200px){/*Desktop*/
+@media screen and (min-width: 751px) and (max-width: 1400px){/*Desktop*/
     body{
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -43,7 +44,7 @@
     img#tv{display: none;}
     img#pc{display: block;}
 }
-@media screen and (min-width: 1201px){/*Telas Grandes*/
+@media screen and (min-width: 1401px){/*Telas Grandes*/
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
